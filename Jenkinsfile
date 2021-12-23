@@ -4,6 +4,8 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python --version'
+
+		sh 'python -s 'print('Test CI/CD')''
             }
         }
     }
