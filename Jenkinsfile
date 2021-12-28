@@ -6,6 +6,8 @@ pipeline {
                 sh 'python --version'
 
 		sh 'python -s 'print('Test CI/CD')''
+
+		sh 'whoami'
             }
         }
     }
