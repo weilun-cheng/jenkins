@@ -5,7 +5,9 @@ pipeline {
             steps {
                 sh 'python --version'
 
-		sh 'python -s 'print('Test CI/CD')''
+		sh 'python3 -c 'print(1111)''
+
+		sh 'whoami'
             }
         }
     }
