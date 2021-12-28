@@ -5,8 +5,6 @@ pipeline {
             steps {
                 sh 'python --version'
 
-		sh 'python3 -c 'print(1111)''
-
 		sh 'whoami'
             }
         }
